@@ -112,13 +112,11 @@ body {
 }
 /*button order*/
 .idea-btn {
-    /*
     padding: 10px 32px;
     margin-right: auto;
     margin-bottom: 200px;
     margin-left: auto;
     width: 216px;
-    */
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
