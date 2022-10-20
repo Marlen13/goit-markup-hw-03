@@ -97,8 +97,10 @@ body {
     background-color: #212121; 
 }
 .idea-title {
-    margin-top: 0;
-    margin-bottom: 30;
+    width: 696px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -110,9 +112,9 @@ body {
 /*button order*/
 .idea-btn {
     padding: 10px 32px;
-    margin-right: 692px;
+    margin-right: auto;
     margin-bottom: 200px;
-    margin-left: 692px;
+    margin-left: auto;
     width: 216px;
     font-weight: 700;
     font-size: 16px;
