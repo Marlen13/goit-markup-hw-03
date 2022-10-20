@@ -114,8 +114,6 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.36;
     color: var(--white-text-color);
 
-
-    background-color: red;
 }
 /*button order*/
 .idea-btn {
