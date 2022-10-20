@@ -172,9 +172,7 @@ h1, h2, h3, h4, h5, h6, p {
     color:var(--secondary-text-color);
 }
 /*section job*/
-.job {
-    
-}
+
 
 .job-title {
     margin-bottom: 50px;
@@ -195,12 +193,17 @@ h1, h2, h3, h4, h5, h6, p {
     background: #F5F4FA;
 }
 .team-title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
+.team-img {
+    display:block;
+}
 .team-person {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -212,6 +215,11 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.19;
     text-align: center;
     color: var(--secondary-text-color);
+}
+.team-block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
 
 /* footer contacts*/
