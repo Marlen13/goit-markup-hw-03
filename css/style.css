@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6, p {
     display:block;
     padding-top: 32px;
     padding-bottom: 32px;
-    color:var(--main-text-color)
+    color:var(--main-text-color);
 }
 .site-nav-link.current {
     color:var(--accent-text-color)
@@ -110,11 +110,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-left: 50px;
 }
 
-.site-nav .item {
-    /*display:block;
-    padding-top: 32px;
-    padding-bottom: 32px;*/
-}
+
 .auth-nav {
     display:flex;
     align-items: center;
