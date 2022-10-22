@@ -17,26 +17,6 @@ body {
     letter-spacing: 0.03em;
     color:var(--main-text-color);
 }
-/*logo*/
-.logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
-}
-
-.logo-first {
-    color: var(--accent-text-color);
-}
-
-.logo-second {
-    color:#000000
-}
-.logo-third {
-    color: var(--white-text-color);
-}
- 
 /* reset*/
 
 .list {
@@ -54,16 +34,57 @@ h1, h2, h3, h4, h5, h6, p {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    outline: 2px solid red;
 
 }
 
 /*header*/
 .header {
+    display:flex;
+    align-items: center;
+    
     background-color: var(--white-text-color);
 }
 
+.header-conteiner {
+    display:flex;
+    align-items: center;
+}
+
+/*logo*/
+
+.logo {
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo-header {
+    display:block;
+    margin-right: 93px;
+    
+}
+
+.logo-first {
+    color: var(--accent-text-color);
+}
+
+.logo-second {
+    color:#000000
+}
+.logo-third {
+    color: var(--white-text-color);
+}
+ 
 /*page navigation*/
 .site-nav {
+    display:flex;
+    align-items: center;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em
@@ -73,6 +94,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .site-nav-link {
+    display:block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color:var(--main-text-color)
 }
 .site-nav-link.current {
@@ -82,20 +106,19 @@ h1, h2, h3, h4, h5, h6, p {
     color: var(--accent-text-color);
 }
 
-.site-nav.list {
-    display:flex;
-}
-
 .site-nav .item+.item {
     margin-left: 50px;
 }
 
 .site-nav .item {
-    display:block;
+    /*display:block;
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 32px;*/
 }
 .auth-nav {
+    display:flex;
+    align-items: center;
+    margin-left: auto;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -105,10 +128,14 @@ h1, h2, h3, h4, h5, h6, p {
  }
 
 .mail {
+    display:block;
+    margin-right: 50px;
     color: var(--secondary-text-color);
 }
 
 .tel {
+    display:block;
+    
     color:var(--secondary-text-color);
 
 }
