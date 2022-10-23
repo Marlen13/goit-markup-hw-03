@@ -280,7 +280,14 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* footer contacts*/
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #212121; 
+}
+
+.logo-footer {
+    display:block;
+    margin-bottom: 20px;
 }
 .adress {
     font-style: normal;
@@ -295,6 +302,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .adress .link:hover,.adress .link:focus {
     color: var(--accent-text-color);
+}
+.adress-item {
+    display:block;
+
+}
+.adress-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 /*portfolio main*/
