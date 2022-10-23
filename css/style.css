@@ -36,7 +36,6 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: auto;
     padding-right: 15px;
     padding-left: 15px;
-    outline: 2px solid red;
 
 }
 
@@ -51,6 +50,7 @@ h1, h2, h3, h4, h5, h6, p {
 .header-conteiner {
     display:flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
 }
 
 /*logo*/
@@ -135,7 +135,9 @@ h1, h2, h3, h4, h5, h6, p {
     color:var(--secondary-text-color);
 
 }
+
 /*title section*/
+
 .idea {
     /*display: inline-block;*/
     padding-top: 200px;
@@ -350,7 +352,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .project-wrapper {
     padding: 20px 24px;
-
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .choise-project-item {
@@ -373,3 +376,6 @@ h1, h2, h3, h4, h5, h6, p {
     color:var(--secondary-text-color);
 }
 
+.project-img, .project-link {
+    display: block;
+}
