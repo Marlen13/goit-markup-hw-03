@@ -234,6 +234,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 /*section team*/
 .team {
+   /* outline: 2px solid green;*/
     padding-top: 94px;
     padding-bottom: 94px;
     background: #F5F4FA;
@@ -269,11 +270,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .team-container {
     display: flex;
+    flex-wrap: wrap;
 
 } 
 
 .team-list {
-    lex-basis: calc((100% -30px * 3) / 4);   
+    flex-basis: calc((100% -30px * 3) / 4);   
 }
 
 /* footer contacts*/
