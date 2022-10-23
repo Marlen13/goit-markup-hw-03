@@ -324,8 +324,8 @@ h1, h2, h3, h4, h5, h6, p {
     justify-content: center;
     margin-bottom: 50px;
 }
-.choise-item {
-
+.choise-item:not(:last-child) {
+    margin-right: 8px;
 }
 .choise-btn {
     padding-right: 22px;
@@ -343,7 +343,22 @@ h1, h2, h3, h4, h5, h6, p {
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
 }
+.choise-project {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.project-wrapper {
+    padding: 20px 24px;
+
+}
+
+.choise-project-item {
+    
+    flex-basic: calc((100%-30px*2)/3);
+}
 .project-title {
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
