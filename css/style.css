@@ -303,18 +303,34 @@ h1, h2, h3, h4, h5, h6, p {
 .adress .link:hover,.adress .link:focus {
     color: var(--accent-text-color);
 }
-.adress-item {
+.adress-post, .contact {
     display:block;
-
 }
+
 .adress-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
 /*portfolio main*/
 /*section choise*/
+.choise-container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
 
+.choise-list-container {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.choise-item {
+
+}
 .choise-btn {
+    padding-right: 22px;
+    padding-left: 22px;
+    min-width: 73px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
