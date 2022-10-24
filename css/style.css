@@ -355,11 +355,13 @@ h1, h2, h3, h4, h5, h6, p {
     border: 1px solid #EEEEEE;
     border-top: none;
 }
-
+/*
 .choise-project-item {
     
-    flex-basic: calc((100%-30px*2)/3);
+    flex-basis: calc((100%-30px*2)/3);
 }
+*/
+
 .project-title {
     margin-bottom: 4px;
     font-weight: 700;
