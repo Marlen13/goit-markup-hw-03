@@ -46,11 +46,13 @@ h1, h2, h3, h4, h5, h6, p {
     
     background-color: var(--white-text-color);
 }
-
+.header-border {
+    border-bottom: 1px solid #ECECEC;   
+}
 .header-conteiner {
     display:flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
+
 }
 
 /*logo*/
@@ -273,7 +275,7 @@ h1, h2, h3, h4, h5, h6, p {
 .team-block {
     padding-top: 30px;
     padding-bottom: 30px;
-    
+
     background-color: var(--white-text-color);
    
 
@@ -343,9 +345,13 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: 8px;
 }
 .choise-btn {
+    padding-top: 6px;
     padding-right: 22px;
+    padding-bottom: 6px;
     padding-left: 22px;
     min-width: 73px;
+    border: none;
+    border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
